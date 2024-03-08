@@ -1,0 +1,48 @@
+class ALLIANCE_ROLE:
+    LEADER = 1
+    ADMIN = 2
+    REGULAR = 3  # Aka soldier ingame
+    RECRUIT = 4
+
+
+class ALLIANCE_INVITE:
+    JOIN = 1
+    INVITE = 2
+    SUGGEST = 3
+
+
+class LOG_TYPE:
+    USER_JOINED = 1
+    USER_LEFT = 2
+    USER_KICKED = 3
+    LEADER_PROMOTION = 4
+    ADMIN_PROMOTION = 5
+    WAR_STARTED = 8
+    WAR_WON = 10
+    WAR_LOST = 11
+    ALLIANCE_CREATED = 12
+    PLANET_TAGGED = 16
+    WAR_CANCELED = 17
+
+
+class ITEM_TYPE:
+    RESOURCES_COINS = 0
+    RESOURCES_MINERALS = 1
+    RESOURCES_SILOS = 2
+    SHIPYARD = 3
+    DECORATION = 4
+    WONDER = 5
+    DEFENSES = 6
+    HANGARS = 7
+    BUNKERS = 8
+    LABS = 9
+    OBSTACLES = 12
+    LEVEL = 13
+
+
+class PLAY_MODE:
+    PLAYING = 1
+    VISITING = 2
+    ATTACKING = 3
+    ATTACKING_NPC = 4
+    UNDER_NPC_ATTACK = 5
